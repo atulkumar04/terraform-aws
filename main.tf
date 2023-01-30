@@ -5,5 +5,10 @@ provider "aws"{
 resource "aws_s3_bucket" "my_s3_bucket"{
 
     bucket = "my-s3-bucket-atul-1234"
+    versioning_configuration {
+        status = "Enabled"
+
+        
+    }
 
 }
