@@ -1,4 +1,5 @@
-resource "aws_iam_user" "my_iam_user"{
+resource "aws_iam_user" "my_iam_users"{
 
-    name = "terraform_test_user_changed"
+    count = 4
+    name = "my_iam_user_${count.index}"
 }

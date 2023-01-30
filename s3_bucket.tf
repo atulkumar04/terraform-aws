@@ -12,7 +12,3 @@ resource "aws_s3_bucket_versioning" "versioning_example"{
     }
 }
 
-resource "aws_iam_user" "my_iam_user"{
-
-    name = "terraform_test_user_changed"
-}
