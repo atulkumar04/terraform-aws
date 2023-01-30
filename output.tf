@@ -7,7 +7,7 @@ output "my_s3_bucket_versioning"{
 
 output "my_iam_user_complete_details"{
 
-    value = aws_iam_user.my_iam_user
+    value = aws_iam_user.my_iam_users
 
 
 }
